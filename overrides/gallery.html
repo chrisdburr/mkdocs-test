@@ -1,0 +1,26 @@
+{% extends "main.html" %} 
+
+{% block content %} 
+{{ super() }}
+
+    {% for item in config.images %}
+        <h2>{{ item.title }}</h2>
+        <div class="grid cards">
+          <a class="glightbox" href="{{ item.url }}" data-height="auto" data-width="100%">
+          <img src="{{ item.url }}" alt="{{ item.caption }}" width="300">
+          </a>
+          <div>
+            <span class="md-button">Download PNG File</span>
+            <span class="md-button">Download AI File</span>
+          </div>
+          
+          <div>
+            <span><strong>Tags:</strong></span>
+            {% for tag in item.tags %}
+              <span>#{{ tag }} </span>
+            {% endfor %}
+          </div>
+        </div>
+    {% endfor %}
+
+{% endblock %} 
