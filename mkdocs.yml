@@ -5,6 +5,9 @@ theme:
   name: material
   custom_dir: overrides
 
+extra_css:
+  - stylesheets/gallery.css
+
 plugins:
   - search
   - glightbox:
