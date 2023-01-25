@@ -23,3 +23,6 @@ nav:
   - 'index.md'
   - 'about.md'
   - 'gallery.md'
+  
+extra_javascript:
+- javascripts/extra.js

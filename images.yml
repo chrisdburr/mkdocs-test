@@ -12,3 +12,30 @@ images:
       - tag 2
     url: https://raw.githubusercontent.com/alan-turing-institute/turing-commons/main/docs/assets/images/illustrations/imbalanced-classes.png
     caption: "An image caption."
+  - title: "Stakeholder Engagement 2"
+    tags:
+      - participatory design
+      - workshop
+      - engagement
+    url: https://raw.githubusercontent.com/alan-turing-institute/turing-commons/main/docs/assets/images/illustrations/stakeholder-engagement.jpg
+    caption: "An image caption."
+  - title: "Imbalanced Classes 2"
+    tags:
+      - tag 1
+      - tag 2
+    url: https://raw.githubusercontent.com/alan-turing-institute/turing-commons/main/docs/assets/images/illustrations/imbalanced-classes.png
+    caption: "An image caption."
+  - title: "Stakeholder Engagement 2"
+    tags:
+      - participatory design
+      - workshop
+      - engagement
+    url: https://raw.githubusercontent.com/alan-turing-institute/turing-commons/main/docs/assets/images/illustrations/stakeholder-engagement.jpg
+    caption: "An image caption."
+  - title: "Imbalanced Classes 2"
+    tags:
+      - tag 1
+      - tag 2
+    url: https://raw.githubusercontent.com/alan-turing-institute/turing-commons/main/docs/assets/images/illustrations/imbalanced-classes.png
+    caption: "An image caption."
+         
